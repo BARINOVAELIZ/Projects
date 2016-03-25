@@ -3,6 +3,7 @@
 <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	  <title>Task 1</title>
+	  <link rel="stylesheet" href="task1S.css">
   </head>
   <body>
 	<ul>
@@ -20,13 +21,14 @@
         <li>News</li>
         <li>Dictionaries</li>
         <li>Pictures</li>
-        <li>Yet</li>
-        <ul>
-            <li>Flights</li>
-            <li>Auto</li>
-            <li>Poster</li>
-            <li>Blogs</li>
-        </ul>
+        <li>Yet
+        	<ul>
+            	<li>Flights</li>
+            	<li>Auto</li>
+            	<li>Poster</li>
+            	<li>Blogs</li>
+        	</ul>
+		</li>
     </ol>
     <dl>
         <dt><i>Tag</i></dt>
@@ -37,7 +39,7 @@
             <dd>This direction of development of the World Wide Web, the aim of which is to provide informations in a form suitable for machine processing</dd>
     </dl>
     <hr>
-    <table border="1" width="100%">
+    <table class="table">
         <caption>CSS Generated content for pseudo-elements</caption>
         <tr>
             <th>IE</th>
@@ -106,16 +108,19 @@
             <label>Surname <input type="text"></label><br><br>
             <label>First Name <input type="text"></label><br><br>
             <label>Middle Name <input type="text"></label><br><br>
-            <label>You are <input type="radio" name="sex" value="male" checked> male <input type="radio" name="sex" value="female">female</label><br><br>
+            <label>You are </label>
+			<input type="radio" name="sex" value="male" checked> male 
+			<input type="radio" name="sex" value="female">female<br><br>
             <label>Age <input type="number" min="18" max="101"></label><br><br>
-            <label>Country of Residence <input list="countries">
-                <datalist id="countries">
-                    <option value="Russia">
-                    <option value="USA">
-                    <option value="Germany">
-                </datalist>
+            <label>Country of Residence <select name="countries">
+				<option value="Russia">Russia</option>
+				<option value="USA">USA</option>
+				<option value="Germany">Germany</option>
+				</select>
             </label><br><br>
-            <label> City<input type="radio" name="city" value="Ryazan" checked> Ryazan             <input type="radio" name="city" value="Moscow">Moscow</label><br><br>
+            <label> City </label>
+			<input type="radio" name="city" value="Ryazan" checked> Ryazan             
+			<input type="radio" name="city" value="Moscow">Moscow<br><br>
             <label>Photography <input type=file></label><br><hr>
             <label>Title 
                 <select name="title" multiple size="8">

@@ -32,17 +32,17 @@
 				  </tr>
 				  <tr>
 					  <td><label for="country">Country</label></td>
-					  <td><input list="countries" id="country">
-                			<datalist id="countries">
-								<option value="Russia">
-                    			<option value="USA">
-								<option value="Germany">
-                			</datalist></td>
+					  <td><select name="countries" id="country">
+						  <option value="Russia">Russia</option>
+						  <option value="USA">USA</option>
+						  <option value="Germany">Germany</option>
+                		  </select>
+					  </td>
 				  </tr>
 				  <tr>
 					  <td><label>City</label></td>
-					  <td><input type="checkbox" id="city" value="Ryazan"><label for="city">Ryazan</label>
-					 		<input type="checkbox" id="city" value="Moscow"><label for="city">Moscow</label>
+					  <td><input type="checkbox" id="city1" value="Ryazan"><label for="city1">Ryazan</label>
+					 		<input type="checkbox" id="city2" value="Moscow"><label for="city2">Moscow</label>
 					  </td>
 				  </tr>
 				  <tr>
@@ -53,8 +53,8 @@
 			  <hr>
 			  <table>
 				  <tr>
-					  <td><lable for="t">Title</lable></td>
-					  <td><select name="title" id="t" multiple size="8">
+					  <td>Title</td>
+					  <td><select name="title" multiple size="8">
                     		<optgroup label="Techologies">
                     		<option value="s1">Web Master</option>
                     		<option value="s2">Database 	Administrator</option>
@@ -67,7 +67,7 @@
             		  </td>
 				  </tr>
 				  <tr>
-					  <td><label for="sc">Salary</label></td>
+					  <td><label>Salary</label></td>
 					  <td><input type="range"></td>
 				  </tr>
 			  </table>
