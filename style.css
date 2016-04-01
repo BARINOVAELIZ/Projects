@@ -1,0 +1,73 @@
+body {
+	background-image: url(https://im0-tub-ru.yandex.net/i?id=603973a9772205e72d78f216ff670983&n=33&h=215&w=215);
+	
+}
+
+h1 {
+	background-color: aqua;
+	text-align: center;
+	font-size: 40px;
+	color: rgb(100,90,255);
+	
+}
+
+#p1 {
+	background-color: rgba(0, 255, 0,0.5);
+  	padding: 10px;
+  	margin-left: 150px;
+	margin-right: 60px;
+	color: darkblue;
+}
+
+.uppercase {
+	color:rgb(255,0,0);
+	font-size: 35px;
+	font-family: serif;
+	font-weight: bolder;
+	text-decoration: overline;
+	font-style: italic;
+}
+
+.p2 {
+	font-family: sans-serif;
+	padding: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-style: italic;
+	text-align: justify;
+}
+
+.title3 {
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+
+span.last {
+	text-decoration: underline;
+}
+
+.p3 {
+	text-transform: capitalize;
+	color: crimson;
+	direction: rtl;
+	word-spacing: 20px;
+}
+
+.direc {
+	letter-spacing: 10px;
+	font-size: 30px;
+}
+
+.p4 {
+	text-shadow: 10px -10px 10px rgba(0, 0, 255, 1);
+	color: black;
+	font-size: 70px;
+}
+
+.sp1 {
+	vertical-align: 70%;
+}
+
+.p5 {
+	white-space:nowrap;
+}
