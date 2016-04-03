@@ -1,0 +1,167 @@
+.ball {
+	width: 300px;
+	height: 200px;
+	background: radial-gradient(circle, green 40px, white 40px);
+	outline: 3px solid gray;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    border: 2px solid #7390e0; 
+    border-radius: 6px;
+    background: linear-gradient(to top,#858ccd,#595fe8,#7390e0);
+    color:white;
+    margin: 2px;
+}
+
+.btn{
+    border: 2px solid #7390e0;
+    background: #fff;
+    width: 124px;
+    height: 34px;
+    border-radius: 6px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+	box-shadow: 0 0 10px #833002;
+}
+
+
+@media screen and (min-width: 500px) {
+	.text1 {
+		width: 60em;
+		background-color: gainsboro;
+		padding: 10px;
+		margin: 10px;
+		font-size: 8pt;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.text1 {
+		background-color: gainsboro;
+		padding: 5px;
+		margin: 10px;
+		font-size: 12pt;
+	}
+}
+
+.borderload {
+	width: 340px;
+	height: 40px;
+	border: 1px solid rgb(0,255,0);
+}
+
+.load {
+	background-color: chartreuse;
+	width: 315px;
+	height: 35px;
+	margin: 2px;
+	animation-name: Loading;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes Loading {
+  	0% { 
+    	width:0%;
+  	}
+
+	100%  { 
+		width: 98.5%;
+  	}
+}
+
+.block1{
+    width: 100px;
+    height: 60px;
+    background-color: gray;
+}
+.block2{
+    width: 100px;
+    height: 60px;
+    background-color: gray;
+    animation-name: block2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+.ballAn {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    background-color: blue;  
+    border-radius: 100%;
+    animation-name: ball;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes ball {
+  	0% { 
+    	margin-top: 0px;
+  	}
+
+  	100%  { 
+    	margin-top: 50px;
+  	}
+}
+
+@keyframes block2 {
+  	0% { 
+    	margin-top: 50px;
+  	}
+
+  	100%  { 
+    	margin-top: 0px;
+  	}
+}
+
+.animation {
+	width: 200px;
+	height: 200px;
+	margin: 80px;
+	background: radial-gradient(circle, green, white);
+	animation-name: Anim;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes Anim {
+	0% {
+		background: radial-gradient(circle, green, white);
+		border-radius: 100%;
+	}
+	
+	15% {
+		border-radius: 0%;
+	}
+	
+	30% {
+		background: radial-gradient(circle, blue, beige);
+	}
+	
+	45% {
+		transform: scaleX(0.5);
+		transform: skewX(45deg);
+	}
+	
+	60% {
+		transform: rotate(180deg);
+	}
+	
+	80% {
+		background: radial-gradient(circle, yellow, red);
+	}
+	
+	100% {
+		border-radius: 100%;
+	}
+}
+
