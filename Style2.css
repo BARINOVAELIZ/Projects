@@ -1,0 +1,38 @@
+.table {
+	width: 600px;
+	height: 10px;
+	border: 1px;
+	font-family: sans-serif;
+	font-size: 10pt;
+	color: gray;
+}
+
+#hd{
+	text-transform: uppercase;
+	background-color: lightblue;
+}
+
+
+tr:nth-child(2n+1) {
+	background-color: aliceblue;
+}
+
+tr:nth-child(2n) {
+	background-color: lightblue;
+}
+
+td {
+	width: 300px;
+	height: 30px;
+}
+
+.name:first-child,.name:first-child+td  {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+tr:hover {
+	background-color: burlywood;
+}
+
+

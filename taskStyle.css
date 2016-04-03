@@ -1,0 +1,32 @@
+table, th,tr,td {
+	border: 1px;
+	font-family: sans-serif;
+	color: gray;
+	
+}
+
+th,tr:nth-child(2n) {
+	background-color: lightblue;
+}
+
+tr:nth-child(2n+1) {
+	background-color: aliceblue;
+}
+
+td:first-child, td:nth-child(2) {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+td {
+	width: 150px;
+	height: 50px;
+}
+
+th {
+	text-transform: uppercase;
+}
+
+tr:hover {
+	background-color: lightsalmon;
+}
