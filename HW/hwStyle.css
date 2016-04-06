@@ -1,8 +1,14 @@
+
+	
+
 .ball {
-	width: 300px;
-	height: 200px;
-	background: radial-gradient(circle, green 40px, white 40px);
-	outline: 3px solid gray;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: red;
+	outline: 3px solid gray; 
+	outline-offset: 50px;
+	margin: 5rem;
 }
 
 button{
