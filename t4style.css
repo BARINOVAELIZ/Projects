@@ -1,0 +1,44 @@
+.menu,label,.menus {
+	display: none;
+    margin: 0;
+    padding: 0;
+    width: 8em;
+	height: 1.5em;
+    text-align: center;
+    font-size: 16pt;
+	color:white;
+	background-color: cornflowerblue;	
+}
+
+label {
+	color:white;
+	background-color: cornflowerblue;
+	display:block;
+	position: absolute;
+	border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+	transition: 0.5s;   
+}
+
+label:hover {
+	box-shadow: 0 0 5px 5px blue;
+}
+
+.menu:checked + label{
+	margin-top: 6em;
+	border-top: .1em solid grey;
+	transition: 0.5s;	
+}
+
+.menu:checked+label+.menus {
+	margin-top:0px;
+    list-style: none;
+    background-color: cornflowerblue;
+    color:white; 
+    height: 6em;
+    display: block;
+}
+
+.menus__item:hover {
+	background-color: blue;
+}

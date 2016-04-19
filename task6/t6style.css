@@ -1,0 +1,72 @@
+ body {
+	 width:100%;
+	 margin:0em;
+ }
+ 
+ 
+ .container {
+	float:left;
+	width:28%;
+	margin:0em;
+	padding:0em;
+	padding-left:4em;
+	
+
+}
+
+.container span {
+	display:none;
+	
+}
+
+
+.picture {
+	height: 20em;
+	width: 20em;
+	outline: 3px solid gray; 
+	outline-offset: 0.5em;
+}
+
+
+
+.det,.dem {
+    width: 8em;
+    height: 3em;
+    font-size: 13pt;
+    color:#999;
+	margin: 0.5em ;
+}
+
+
+
+
+.picture:hover  {
+	opacity:0.5;
+}
+
+
+h2 {
+	clear: both;
+}
+
+.IB {
+	vertical-align:middle;
+	text-align:center;
+}
+
+.container2 {
+  	display: inline-block;
+	margin:0em 1.5em;
+	width:28%;
+}
+
+.flex {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+input:hover {
+	background-color: green;
+}
