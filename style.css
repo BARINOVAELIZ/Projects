@@ -1,0 +1,72 @@
+#app {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+#task {
+	border:none;
+	height:1em;
+	padding: 0.5em;
+	box-shadow: 0 0 1em rgba(0, 0, 0, .1) inset; 
+}
+
+.header{
+	color:blue;
+}
+
+.header, .enter {
+	text-align:center;
+}
+
+
+
+#todos {
+	height:12em;
+	width:16em;
+	overflow-y: auto;
+	overflow-x:hidden;
+	padding-left:10%;
+}
+
+li {
+	list-style-type: none; 
+	margin-top:1%;
+	background-color:yellow;
+	width:16em;
+	
+}
+
+#container {
+	background-color:rgb(252,251,178);
+	height:20em;
+	width:20em;
+}
+
+#add {
+  position: relative;
+  display: inline-block;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-family:italic;
+  font-size:80%;
+  color: blue;
+  margin:2%;
+  border-radius: 1em;
+  box-shadow: 0 0 0 1px #green inset, 0 1px 1px #green;
+}
+
+#add:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+#add:active {
+  background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #green;
+}
