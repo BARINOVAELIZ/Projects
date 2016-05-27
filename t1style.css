@@ -1,0 +1,65 @@
+* {
+	font-family: sans-serif;
+	
+}
+
+.font {
+	background-color: coral;
+	border: 1px solid crimson;
+	width: 360px;
+	height: 200px;
+	display: block;
+	border-radius: 2%;
+	position: absolute;
+
+	
+}
+
+.header {
+	top: 10px;
+	font-weight: 500;
+	font-size: 16pt;
+	background: yellow;
+	position: relative;
+	width: 320px;
+ 	height: 20px;
+	margin: 10px;
+	padding: 10px;
+	border-right: 1px solid crimson;
+ 	border-left: 1px solid crimson;
+ 	border-top: 1px solid crimson;
+}
+
+.text {
+	color: darkseagreen;
+	font-size: 11pt;
+	background-color: aliceblue;
+	width: 320px;
+	height: 100px;
+	padding: 40px 10px 0px 10px;
+	position: relative;
+	margin: 0px 10px;
+	border-right: 1px solid crimson;
+ 	border-left: 1px solid crimson;
+ 	border-bottom: 1px solid crimson;
+ 
+}
+
+.text::first-line {
+	padding-left: 9em;
+}
+
+.text:before {
+	content: '';
+	display: inline-block;
+	position: absolute; 
+	left: 10px;
+	top: 0px;
+	width: 0;
+	height: 0;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 20px solid yellow;
+  
+}
+
